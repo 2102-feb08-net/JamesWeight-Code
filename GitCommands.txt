@@ -1,0 +1,9 @@
+cd '/c/jamesweight-code'
+
+cd JamesWeight
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/2102-feb08-net/JamesWeight-Code.git
+git push -u origin main
