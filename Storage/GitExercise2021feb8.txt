@@ -1,0 +1,36 @@
+Nick Escalona  1:32 PM
+exercises (with just the command line):
+    1. create an empty file -> touch empty.file
+    2. rename that file -> mv empty.file renamed.test
+    3. create a new folder -> mkdir NewFolder/ or mkdir /c/NewFolder/
+    4. move the file into the folder -> mv renamed.test NewFolder/empty.file
+    5. delete the folder including its contents -> rm -r NewFolder
+    6. look up "echo" and use it to output some text. -> 
+
+         Wcs -C T S@Wcs MINGW64 /c/JaMESwEIGHT-Code (main)
+         $ touch Store.Log
+
+         Wcs -C T S@Wcs MINGW64 /c/JaMESwEIGHT-Code (main)
+         $ echo "Test" > Store.Log                         // OverWrite >
+
+         Wcs -C T S@Wcs MINGW64 /c/JaMESwEIGHT-Code (main)
+         $ cat Store.Log
+         Test
+
+         Wcs -C T S@Wcs MINGW64 /c/JaMESwEIGHT-Code (main)
+         $ echo "Good" >> Store.Log                        // Append >>
+
+         Wcs -C T S@Wcs MINGW64 /c/JaMESwEIGHT-Code (main)
+         $ cat Store.Log
+         Test
+         Good
+
+7. look up "which" and use it to find where dotnet is installed. -> which -a dotnet
+
+8. look up "grep" and use it to search a file for some text. -> findstr "cd" Gitcommands.txt
+
+9. look up "find" and use it to search for all .txt files in some folder. -> find /c/jamesweight-code/*.txt
+
+10. look up "cat" and use it to show file contents. -> cat /c/jamesweight-code/Store.Log
+
+11. use echo to make a new file with some contents. -> echo "Test" > New.File

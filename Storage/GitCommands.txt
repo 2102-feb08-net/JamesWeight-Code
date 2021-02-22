@@ -1,0 +1,277 @@
+cd '/c/jamesweight-code'
+
+==========
+
+cd JamesWeight
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/2102-feb08-net/JamesWeight-Code.git
+git push -u origin main
+
+==========
+
+
+Wcs -C T S@Wcs MINGW64 / (master)
+$ cd /c/jamesweight-code
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code (main)
+$ ls
+Build/         Documentation/  GitCommands.txt  Release/
+ClassLibrary/  Exercises.Log   README.md        Solution/
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code (main)
+$ cd documentation
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code/documentation (main)
+$ git add *
+fatal: pathspec '*' did not match any files
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code/documentation (main)
+$ touch Start.Log
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code/documentation (main)
+$ git add *
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code/documentation (main)
+$ git commit -m "Upload2021feb11am407"
+[main d7102a1] Upload2021feb11am407
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Documentation/Start.Log
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code/documentation (main)
+$ cd ..
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code (main)
+$ ls
+Build/         Documentation/  GitCommands.txt  Release/
+ClassLibrary/  Exercises.Log   README.md        Solution/
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code (main)
+$ git release
+git: 'release' is not a git command. See 'git --help'.
+
+The most similar commands are
+        merge-base
+        rebase
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code (main)
+$ git /c/Release
+git: 'C:/Release' is not a git command. See 'git --help'.
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code (main)
+$ rmdir Release
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code (main)
+$ mkdir ExeRelease
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code (main)
+$ cd exerelease
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code/exerelease (main)
+$ touch Start.Log
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code/exerelease (main)
+$ git add *
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code/exerelease (main)
+$ git commit -m "Upload2021feb11am408"
+[main 696cd77] Upload2021feb11am408
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 ExeRelease/Start.Log
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code/exerelease (main)
+$ cd ../solution
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code/solution (main)
+$ touch Start.Log
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code/solution (main)
+$ git add *
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code/solution (main)
+$ git commit -m "Upload2021feb11am409"
+[main 61f436c] Upload2021feb11am409
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Solution/Start.Log
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code/solution (main)
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 616 bytes | 154.00 KiB/s, done.
+Total 6 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+To https://github.com/2102-feb08-net/JamesWeight-Code.git
+   d8e8d19..61f436c  main -> main
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code/solution (main)
+$ cd ..
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code (main)
+$ rename Build BuildIL
+bash: rename: command not found
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code (main)
+$ rendir
+bash: rendir: command not found
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code (main)
+$ rn
+bash: rn: command not found
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code (main)
+$ rename
+bash: rename: command not found
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code (main)
+$ rmdir build
+rmdir: failed to remove 'build': Directory not empty
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code (main)
+$ rmdir help
+rmdir: failed to remove 'help': No such file or directory
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code (main)
+$ help rmdir
+bash: help: no help topics match `rmdir'.  Try `help help' or `man -k rmdir' or `info rmdir'.
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code (main)
+$ help help
+help: help [-dms] [pattern ...]
+    Display information about builtin commands.
+
+    Displays brief summaries of builtin commands.  If PATTERN is
+    specified, gives detailed help on all commands matching PATTERN,
+    otherwise the list of help topics is printed.
+
+    Options:
+      -d        output short description for each topic
+      -m        display usage in pseudo-manpage format
+      -s        output only a short usage synopsis for each topic matching
+                PATTERN
+
+    Arguments:
+      PATTERN   Pattern specifiying a help topic
+
+    Exit Status:
+    Returns success unless PATTERN is not found or an invalid option is given.
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code (main)
+$ ls
+BuildIL/       Documentation/  GitCommands.txt  ReleaseCLR/
+ClassLibrary/  Exercises.Log   README.md        SolutionVS/
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code (main)
+$ cd buildIL
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code/buildIL (main)
+$ git add *
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code/buildIL (main)
+$ git commit -m "Upload2021feb11am416"
+[main e0eb558] Upload2021feb11am416
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 BuildIL/Start.Log
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code/buildIL (main)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 229 bytes | 114.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/2102-feb08-net/JamesWeight-Code.git
+   61f436c..e0eb558  main -> main
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code/buildIL (main)
+$ cd ReleaseCLR
+bash: cd: ReleaseCLR: No such file or directory
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code/buildIL (main)
+$ cd ../ReleaseCLR
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code/ReleaseCLR (main)
+$ git add *
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code/ReleaseCLR (main)
+$ git commit -m "Upload2021feb11am417"
+[main eb2bc02] Upload2021feb11am417
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 ReleaseCLR/Start.Log
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code/ReleaseCLR (main)
+$ git push
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 240 bytes | 120.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/2102-feb08-net/JamesWeight-Code.git
+   e0eb558..eb2bc02  main -> main
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code/ReleaseCLR (main)
+$ cd ..
+
+Wcs -C T S@Wcs MINGW64 /c/jamesweight-code (main)
+$ cd ..
+
+Wcs -C T S@Wcs MINGW64 /c (master)
+$ git clone https://github.com/2102-feb08-net/trainor-code
+Cloning into 'trainor-code'...
+remote: Repository not found.
+fatal: repository 'https://github.com/2102-feb08-net/trainor-code/' not found
+
+Wcs -C T S@Wcs MINGW64 /c (master)
+$ git clone https://github.com/2102-feb08-net/trainer-code
+Cloning into 'trainer-code'...
+remote: Enumerating objects: 112, done.
+remote: Counting objects: 100% (112/112), done.
+remote: Compressing objects: 100% (83/83), done.
+remote: Total 112 (delta 42), reused 92 (delta 26), pack-reused 0
+Receiving objects: 100% (112/112), 716.20 KiB | 2.45 MiB/s, done.
+Resolving deltas: 100% (42/42), done.
+
+Wcs -C T S@Wcs MINGW64 /c (master)
+$ ls
+'$Recycle.Bin'/   BOOTNXT                    DumpStack.log      'Program Files'/         SYSTEM.SAV/                   Windows/            pagefile.sys
+'$SysReset'/      BOOTSECT.BAK               DumpStack.log.tmp  'Program Files (x86)'/  'System Volume Information'/   bootmgr             swapfile.sys
+'$WinREAgent'/    Boot/                      HP/                 ProgramData/            Users/                        hiberfil.sys        trainer-code/
+'$Windows.~WS'/  'Documents and Settings'@   OneDriveTemp/       Recovery/              'W c s'/                       jamesweight-code/
+
+Wcs -C T S@Wcs MINGW64 /c (master)
+$ cd trainer-code
+
+Wcs -C T S@Wcs MINGW64 /c/trainer-code (main)
+$ ls
+1-csharp/  LICENSE  README.md
+
+Wcs -C T S@Wcs MINGW64 /c/trainer-code (main)
+$
+
+==========
+
+Wcs -C T S@Wcs MINGW64 /c (master)
+$ git pull https://github.com/2102-feb08-net/trainer-code
+remote: Enumerating objects: 163, done.
+remote: Counting objects: 100% (163/163), done.
+remote: Compressing objects: 100% (121/121), done.
+remote: Total 163 (delta 67), reused 131 (delta 39), pack-reused 0
+Receiving objects: 100% (163/163), 949.15 KiB | 2.42 MiB/s, done.
+Resolving deltas: 100% (67/67), done.
+From https://github.com/2102-feb08-net/trainer-code
+ * branch            HEAD       -> FETCH_HEAD
+error: unable to create file .gitignore: Permission denied
+error: unable to create file How To Do Well In QC.pdf: Permission denied
+error: unable to create file LICENSE: Permission denied
+error: unable to create file README.md: Permission denied
+
+Wcs -C T S@Wcs MINGW64 /c (master)
+
